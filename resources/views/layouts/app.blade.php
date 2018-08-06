@@ -760,19 +760,19 @@ div {
         <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item m-auto">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Categories</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="{{  url('product') }}">Product</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">My Cart <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{ url('cart') }}">My Cart <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="{{ url('contact') }}">Contact</a>
                 </li>
             </ul>
 
