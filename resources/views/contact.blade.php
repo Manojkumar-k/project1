@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section id="team" class="pb-5">
+<section id="team" class="pb-5" style="background-color: #1111;">
     <div class="container">
         <h5 class="section-title h1">OUR TEAM</h5>
         <div class="row">
