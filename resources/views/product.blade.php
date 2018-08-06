@@ -9,7 +9,7 @@
                 <div class="card-body p-0">
                     <div class="row p-3">
                         <div class="col-md-6">
-                            <h3>Product Name</h3>
+                            <h3>Package Name</h3>
                         </div>
 
                         <div class="col-md-6 text-right">
