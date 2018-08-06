@@ -27,7 +27,7 @@ Route::get('/forg', function () {
 })->name('forgot');
 
 Route::get('/cart', function () {
-    return view('cart');
+    return view('cart');	
 });
 Route::get('/contact', function () {
     return view('contact');
@@ -35,7 +35,7 @@ Route::get('/contact', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/users', 'HomeController@users');
+Route::get('/admin', 'HomeController@users');
 // Authenticate the user
 Route::post('/auth','FirebaseController@index');
 
